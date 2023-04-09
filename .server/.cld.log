@@ -1,0 +1,42 @@
+{"level":"info","time":"2023-04-09T23:37:49Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
+{"level":"info","time":"2023-04-09T23:37:49Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"|  https://signs-tender-baptist-doing.trycloudflare.com                                      |"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"Version 2023.3.1"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"GOOS: linux, GOVersion: go1.19.3, GoArch: arm64"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"Settings: map[logfile:.server/.cld.log protocol:quic url:127.0.0.1:8080]"}
+{"level":"info","autoupdateFreq":86400000,"time":"2023-04-09T23:37:50Z","message":"Autoupdate frequency is set"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"Generated Connector ID: b140f511-c268-4b73-ab81-8be8f319f2ef"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"Initial protocol quic"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"ICMP proxy will use 192.168.100.20 as source for IPv4"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"ICMP proxy will use fe80::e419:50ff:fe0e:f2d in zone wlan0 as source for IPv6"}
+{"level":"warn","error":"open /proc/sys/net/ipv4/ping_group_range: permission denied","time":"2023-04-09T23:37:50Z","message":"The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network"}
+{"level":"info","time":"2023-04-09T23:37:50Z","message":"Starting metrics server on 127.0.0.1:39311/metrics"}
+{"level":"info","connIndex":0,"location":"IAD","ip":"198.41.192.27","time":"2023-04-09T23:37:51Z","message":"Connection 1f60c7f5-15fe-4aa7-b6d8-09118d3502aa registered with protocol: quic"}
+{"level":"info","connIndex":2,"location":"IAD","ip":"198.41.192.47","time":"2023-04-09T23:37:53Z","message":"Connection 22ca3eec-aa89-47b6-84d6-375062af5398 registered with protocol: quic"}
+{"level":"info","connIndex":1,"location":"SCL","ip":"198.41.200.13","time":"2023-04-09T23:37:54Z","message":"Connection cc580ad7-5310-4d04-b0ac-34b845b413c2 registered with protocol: quic"}
+{"level":"info","connIndex":3,"location":"SCL","ip":"198.41.200.33","time":"2023-04-09T23:37:54Z","message":"Connection 41ceeac1-3885-4ea7-8ea7-d45ea9724e2e registered with protocol: quic"}
+{"level":"info","time":"2023-04-09T23:37:59Z","message":"Initiating graceful shutdown due to signal interrupt ..."}
+{"level":"info","connIndex":0,"time":"2023-04-09T23:37:59Z","message":"Unregistered tunnel connection"}
+{"level":"error","ip":"198.41.192.27","connIndex":0,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Failed to serve quic connection"}
+{"level":"error","ip":"198.41.192.27","connIndex":0,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Serve tunnel error"}
+{"level":"info","ip":"198.41.192.27","connIndex":0,"time":"2023-04-09T23:37:59Z","message":"Retrying connection in up to 1s"}
+{"level":"info","connIndex":2,"time":"2023-04-09T23:37:59Z","message":"Unregistered tunnel connection"}
+{"level":"error","ip":"198.41.192.47","connIndex":2,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Failed to serve quic connection"}
+{"level":"error","ip":"198.41.192.47","connIndex":2,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Serve tunnel error"}
+{"level":"info","ip":"198.41.192.47","connIndex":2,"time":"2023-04-09T23:37:59Z","message":"Retrying connection in up to 1s"}
+{"level":"info","connIndex":3,"time":"2023-04-09T23:37:59Z","message":"Unregistered tunnel connection"}
+{"level":"error","ip":"198.41.200.33","connIndex":3,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Failed to serve quic connection"}
+{"level":"error","ip":"198.41.200.33","connIndex":3,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Serve tunnel error"}
+{"level":"info","ip":"198.41.200.33","connIndex":3,"time":"2023-04-09T23:37:59Z","message":"Retrying connection in up to 1s"}
+{"level":"info","connIndex":1,"time":"2023-04-09T23:37:59Z","message":"Unregistered tunnel connection"}
+{"level":"error","ip":"198.41.200.13","connIndex":1,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Failed to serve quic connection"}
+{"level":"error","ip":"198.41.200.13","connIndex":1,"error":"Application error 0x0","time":"2023-04-09T23:37:59Z","message":"Serve tunnel error"}
+{"level":"info","ip":"198.41.200.13","connIndex":1,"time":"2023-04-09T23:37:59Z","message":"Retrying connection in up to 1s"}
+{"level":"error","time":"2023-04-09T23:37:59Z","message":"no more connections active and exiting"}
+{"level":"info","time":"2023-04-09T23:37:59Z","message":"Tunnel server stopped"}
+{"level":"error","error":"context canceled","time":"2023-04-09T23:37:59Z","message":"icmp router terminated"}
+{"level":"info","time":"2023-04-09T23:37:59Z","message":"Metrics server stopped"}
